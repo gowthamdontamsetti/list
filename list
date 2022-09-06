@@ -1,0 +1,21 @@
+
+List1 = []
+print("Blank List: ")
+print(List1)
+  
+List2 = [10, 20, 14]
+print("\nList of numbers: ")
+print(List2)
+  
+List3 = ["python", "For", "datascience"]
+print("\nList Items: ")
+print(List3[0])
+print(List3[2])
+
+List3[0]="c++"
+print(List3)
+
+List2.remove(20)
+print(List2)
+
+List1.extend(List2)
